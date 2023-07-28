@@ -7,7 +7,13 @@ class Person:
         self.age = age
 
     def print_name(self):
+        "print name"
         print(self.name)
 
+    def description(self):
+        "print description"
+        return f"{self.name} is {self.age} years old"
 
-Person("yassine", 28).print_name()
+
+person = Person("yassine", 28)
+print(person.description())
