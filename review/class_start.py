@@ -8,7 +8,7 @@ class Person:
 
     def print_name(self):
         "print name"
-        print(self.name)
+        return self.name
 
     def description(self):
         "print description"
