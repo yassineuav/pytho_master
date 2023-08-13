@@ -1,6 +1,6 @@
 #!bin/python3
 class test():
-
-  def __init__(self):
-    print('test')
+  "test"
+  def __init__(self, name):
+    print(f'name : {name} ')
   
