@@ -2,5 +2,5 @@
 class test():
 
   def __init__(self):
-    pprint('test')
+    print('test')
   
