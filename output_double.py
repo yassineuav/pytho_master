@@ -1,5 +1,8 @@
-var = 100
+
+var = int(input('Enter Start balance: '))
+
 print("times  balance")
-for i in range(1, 10):
-  var = 100*2
-  print(f"{i}  ${var}")
+for i in range(11):
+  # var = var*2
+  print(f'{i}    ${var}')
+  var = var *2
