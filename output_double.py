@@ -1,4 +1,4 @@
-var = int(input('Enter Start balance: '))
+ var = int(input('Enter Start balance: '))
 
 print("times  balance")
 for i in range(11):
