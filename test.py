@@ -1,31 +1,18 @@
 class test:
+    
     def __init__(self, amount=100, times=10, percent=1.5):
         self.amount = amount
+        self.amount_full = amount
         self.times = times
         self.percent = percent
-    
+        print(f"times  balance 100%   50%")
         for i in range(0, times):
             # balance = "{:,}".format(self.amount)
-            print(f"{i}  ${self.amount:,}")
-            self.amount = self.amount * percent
-            
+            print(f"{i}   ${self.amount_full:,}  ${self.amount:,}")
+            self.amount = self.amount * 1.5
+            self.amount_full = self.amount_full * 2
 
-# double = test(100, 11, 2)
+double = test(100, 11, 2)
 
-class list_weekday:
-    day_names = [         
-        'Monday',         
-        'Tuesday',         
-        'Wednesday',         
-        'Thursday',         
-        'Friday',         
-        'Saturday',
-        'Sunday',    
-    ]
-    # import calendar  
-    # day_names = list(calendar.day_name)
-    print(day_names)
-
-list_weekday
 
 
