@@ -12,7 +12,7 @@ class test:
             self.amount = self.amount * 1.5
             self.amount_full = self.amount_full * 2
 
-double = test(100, 11, 2)
+double = test(amount=100, times=11, percent=2)
 
 
 
