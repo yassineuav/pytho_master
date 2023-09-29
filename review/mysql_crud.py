@@ -2,10 +2,10 @@ import mysql.connector
 
 # Connect to MySQL
 conn = mysql.connector.connect(
-    host='your_mysql_host',
-    user='your_username',
-    password='your_password',
-    database='your_database'
+    host='localhost:3606',
+    user='root',
+    password='',
+    database='test'
 )
 
 # Create a cursor object to execute SQL queries
